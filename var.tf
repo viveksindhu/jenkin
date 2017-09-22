@@ -1,21 +1,21 @@
 
 variable "key_name" {
 
-   default = "ubuntu"
+   default = "MULE KEY"
   # description = "Name of the SSH keypair to use in AWS."
 }
 variable "aws_region" {
-    default = "us-west-2"
+    default = "us-east-1d"
    # description = "AWS region to launch servers."
 }
 
 variable "aws_access_key" {
-    default = "AKIAJ2GPGYTSOUQ7YYEQ"
+    default = "AKIAIGBXVR2W374SYHDA"
    # description = "AWS Access Key"
 }
 
 variable "aws_secret_key" {
-      default = "7tpdsY7mPpsScrPRt0ZJde78prBjlECkb0GvpFE3"
+      default = "uw6qudSU4peL8oZxTqvznW8QbdqzdTgOGa3DM6nY"
      # description = "AWS Secret Key"
 }
 
@@ -30,10 +30,10 @@ variable "instance_type" {
 }
 
 variable "instance_name" {
-    default = "Assement3"
+    default = "gocd server"
    # description = "Instance Name"
 }
 
 variable "aws_ami" {
-    default = "ami-30e65350"
+    default = "ami-cd0f5cb6"
 }
